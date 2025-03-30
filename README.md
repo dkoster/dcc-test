@@ -13,5 +13,4 @@ So main credits to digitaltown!
 For my layout, this diagram with the 2x 2k2 resisters works perfectly.
 Still need to experiment with other diagrams that might be better.
 
-![DCC diagram using 6N137 to convert DCC signal to arduino](https://rudysarduinoprojects.wordpress.com/wp-content/uploads/2019/04/dcc-opto.png)
-
+![DCC diagram using 6N137 to convert DCC signal to arduino](https://raw.githubusercontent.com/dkoster/esp32-dcc-acc-decoder/refs/heads/main/dcc-opto.png)
