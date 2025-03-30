@@ -1,4 +1,7 @@
-
+/**
+ * wifi_functions.ino
+ * Just a collecton of stuff to make wifi easier
+ */
 void WiFiEvent(WiFiEvent_t event) {
   //Serial.printf("[WiFi-event] event: %d\n", event);
 
@@ -35,12 +38,10 @@ void WiFiEvent(WiFiEvent_t event) {
     case ARDUINO_EVENT_WIFI_STA_GOT_IP:
       Serial.print("Obtained IP address: ");
       Serial.println(WiFi.localIP());
-      digitalWrite(ONBOARDLED, HIGH);
       break;
 
     case ARDUINO_EVENT_WIFI_STA_LOST_IP:
       Serial.println("Lost IP address and IP address is reset to 0");
-      digitalWrite(ONBOARDLED, LOW);
       break;
 
     case ARDUINO_EVENT_WPS_ER_SUCCESS:

@@ -1,5 +1,18 @@
-
-
+/*
+ * decoderFunctions.ino was taken from this site:
+ * https://www.digitaltown.co.uk/project6ESP32DCCAccDecodert.php
+ *
+ * copyright to digitaltown!
+ *
+ * Use script at your own risk, no responsibility taken for your ESP32 blowing up, house burning down, meteor strike or plague.
+ * Use it at your own risk.
+ *
+ * DO NOT CONNECT DIRECT TO TRACK
+ *
+ * Use the circuit found on https://www.digitaltown.co.uk/79DCCDecoderCircuit.php
+ *
+ * This script is set up for the Interrupt Jumper on step 11 to be connected to GPIO4 on the ESP32 Dev Module
+ */
 void processDCC() {
   byte thisByte;
   int interruptTime;
